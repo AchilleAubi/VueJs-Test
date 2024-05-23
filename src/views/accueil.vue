@@ -163,14 +163,8 @@
       </div>
     </div>
   </section>
-  <div class="card">
+  <div class="card" v-if="showModal">
     <div class="card-body">
-      <h5 class="card-title">Vertically Centered</h5>
-      <p>
-        Add <code>.modal-dialog-centered</code> to <code>.modal-dialog</code> to
-        vertically center the modal.
-      </p>
-
       <div
         class="modal fade"
         :class="{ show: showModal }"
